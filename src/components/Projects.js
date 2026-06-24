@@ -27,9 +27,9 @@ export default function Projects(){
 
      return <section id='projects' className="flex flex-col  py-20 px-5 justify-center bg-primary text-white">
         <div className="w-full">
-            <div className="flex flex-col px-10 py-10">
+            <div className="flex flex-col px-10 md:py-10 py-0">
             <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold">Projects</h1>
-            <p>These are some of my best projects. I have built these with React, MERN and vanilla CSS. Check them out.</p>
+            <p className='md:pb-0 pb-5'>These are some of my best projects I have built. Please check them out.</p>
             </div>
 
         </div>

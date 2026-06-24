@@ -11,17 +11,17 @@ export default function About(){
 
     }
 
-    return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
-        <div className=' py-5 md:w-1/2 bg-secondary px-5'>
+    return <section className='flex flex-col md:flex-row bg-secondary px-5 pb-10 pt-10' id='about'>
+        <div className=' py-5 pb-10 md:pb-0 md:w-1/2 bg-secondary px-5'>
             <img src={AboutImg}/>
         </div>
 
-        <div className='md:w-1/2 flex justify-center'>
-        <div className='px-3 flex flex-col justify-center text-white'>
-            <h1 className='text-4xl border-b-4 border-primary mb-5 w-[170px] font-bold'>About Me</h1>
+        <div className=' md:w-1/2 flex justify-center'>
+        <div className=' px-5 flex flex-col justify-center text-white'>
+            <h1 className='text-4xl border-b-4 border-primary mb-5 w-[170px] font-bold '>About Me</h1>
             <p className='pb-5'>{config.line1}</p>
             <p className='pb-5'>{config.line2}</p>
-            <p>{config.line3}</p>
+            <p className=' md:pb-0 pb-10'>{config.line3}</p>
 
         </div>
             

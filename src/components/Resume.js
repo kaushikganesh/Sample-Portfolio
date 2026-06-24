@@ -5,7 +5,7 @@ export default function Resume(){
         link: 'https://drive.google.com/file/d/1_VjlB8o6pBeIoZ2RnJ7qOkUQJ5f3rowR/view?usp=drivesdk'
     }
 
-    return <section id='resume' className='flex flex-col md:flex-row bg-secondary'>
+    return <section id='resume' className='flex flex-col md:flex-row bg-secondary pt-10  pb-10'>
         <div className=' py-5 md:w-1/2 flex justify-center md:justify-end'>
             <img className='w-[300px]' src={ResumeImg}/>
         </div>

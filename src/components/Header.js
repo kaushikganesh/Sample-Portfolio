@@ -4,8 +4,8 @@ import { useState } from 'react'
 export default function Header() {
     const [toggleMenu, setToggleMenu] = useState(false);
 
-return <header className="flex justify-between px-5 py-2 bg-primary">
-    <a className=" font-bold text-black" href="#">Kaushik</a>
+return <header className="flex justify-between px-5 py-2 bg-secondary">
+    <a className=" font-bold text-white" href="#">Kaushik</a>
     <nav className="hidden md:block">
         <ul className="flex  text-white">
         <li><a href="/">Home</a></li>
